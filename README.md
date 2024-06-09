@@ -1,24 +1,11 @@
 telebend
 ========
 
-# install
-```bash
-npm install telebend -g
-```
+homepage:
+- https://bendscript.com
 
-# create a new bendscript file (input.bs)
-```typescript
-(function () {
-  return "Hello World!";
-})()
-```
-
-# transpile file
-```bash
-telebend -i input.bs -o output.bend
-```
-
-# run new file
-```bash
-bend run ./output.bend
-```
+source code:
+- [LANG: BendScript](https://github.com/subvind/BendScript)
+- [CLI: telebend](https://github.com/subvind/bendscript-cli)
+- [CLI: transbend](https://github.com/subvind/bendscript-watch)
+- [CLI: intrabend](https://github.com/subvind/bendscript-ai)
